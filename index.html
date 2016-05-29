@@ -3,12 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <title>Color Plucker</title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="cutestrap.min.css">
 </head>
 <body>
-  <canvas width="1200" height="800"  id="color-plucker"></canvas>
-  <div id="hex">Hex: <input type="text"></input></div>
+  <header>
+    <h1>Color Plucker</h1>
+  </header>
+  <div class="grid">
+  <canvas width="600" height="400"  id="color-plucker"></canvas>
+  <div id="hex">HEX: <input type="text"></input></div>
   <div id="rgb">RGB: <input type="text"></input></div>
-
+  </div>
+  <footer>
+  <div class="color">Here Is The Color You Plucked</div>
+  </footer>
   <script src="https://code.jquery.com/jquery-1.12.3.js"></script>
   <script src="color-plucker.js"></script>
 </body>

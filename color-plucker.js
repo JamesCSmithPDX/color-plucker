@@ -37,7 +37,8 @@ $('#color-plucker').click(function(event){
 
 //convert RGB to HEX
   var hex = rgbToHex(R,G,B);
-
+  var hexColor = '#' + hex;
 //add hex to page
-  $('#hex input').val('#' + hex);
+  $('#hex input').val(hexColor);
+  $('.color').css('background-color', hexColor);
 });
