@@ -12,7 +12,7 @@ I found an explanation and code for converting RGB to HEX at javascripter - http
 This value is also added to the DOM.
 
 ## CSS
-I recently learned about CuteStrap a scaled down responsive framework between Bootstrap and Normalize. I used CuteStrap for its responsive grid.
+I recently learned about CuteStrap a scaled down framework between Bootstrap and Normalize. I used CuteStrap for its grid.
 
 I added a color bar that changes color based on the color picked out of the image.
 
