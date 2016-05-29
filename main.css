@@ -28,6 +28,11 @@ canvas {
     display: block;
     border: 4px solid #584E3B;
 }
+
+canvas:hover {
+  cursor: url(color-picker.png), auto;
+}
+
 #hex, #rgb {
   margin-top: 0.5rem;
   color: #584E3B;
